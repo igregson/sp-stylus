@@ -1,0 +1,31 @@
+button,
+.button,
+input[type=reset],
+input[type=submit]
+  width: 100%
+  display: inline-block
+  text-align: center
+  margin-left: auto
+  margin-right: auto
+  text-transform: uppercase
+  font-weight: 700
+  line-height: 1
+  font-family: $font-family-body
+  cursor: pointer
+  border-radius: $btn-radius
+  border-width: 2px
+  padding: 3px
+  border-style: solid
+  background-color: transparent
+  transition: background-color $btn-hover-speed ease, color $btn-hover-speed ease, border-color $btn-hover-speed ease
+  a
+    display: block
+    border: none
+    +below(650px)
+      padding-bottom: 3px
+
+  &:hover
+    border-color: #565656
+    a
+      color: #565656
+      border: none

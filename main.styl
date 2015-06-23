@@ -1,0 +1,26 @@
+/* ----------------------------------------
+Global Styles
+
+Notes:
+  - Import single-level-deep files via glob from parent
+    ie: @require 'core/*'
+  - Import sub-sections by requiring their parent and
+    use an index.styl importing that directories files
+    either by glob or explicitly (if glob, be careful
+    about import order)
+    eg: @require 'modules/navbar/'
+*/
+
+@require 'lib/*'
+
+
+@require 'core/*'
+
+
+@require 'shared-components/*'
+
+
+@require 'modules/*'
+
+
+@require 'blocks/*'
