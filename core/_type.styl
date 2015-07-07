@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
   font-family: $font-family-heading
   line-height: 1.5
   color: $c-heading
-// p +, ul +, ol +, pre +, img +
+p +, ul +, ol +, pre +, img +
 * +
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
     // !important here is necessary to override
@@ -81,8 +81,8 @@ $line-height--p = 1.6
 p, ul, ol
   font-size: $font-size--p
   line-height: $line-height--p
-  +below(650px)
-    font-size: 15px
+  // +below(650px)
+  //   font-size: 15px
 
 .container p
   +below(650px)
@@ -124,8 +124,8 @@ blockquote
   color: $c-type
   p
     font-style: italic
-  +below(650px)
-    font-size: 13px
+//   +below(650px)
+//     font-size: 13px
 
 
 // ---------------
